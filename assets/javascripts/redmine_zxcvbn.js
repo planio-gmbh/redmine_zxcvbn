@@ -33,14 +33,14 @@
     var script = document.createElement('script');
     script.type = 'text/javascript';
     script.async = true;
-    script.src = "/plugin_assets/redmine_zxcvbn/vendor/zxcvbn.js";
+    script.src = "/plugin_assets/redmine_zxcvbn/vendor/zxcvbn-55e53654ddb8156f806673bac47b36f2.js";
 
     document.body.appendChild(script);
 
     var link = document.createElement("link");
     link.rel = "stylesheet";
     link.media = "screen";
-    link.href = "/plugin_assets/redmine_zxcvbn/stylesheets/redmine_zxcvbn.css";
+    link.href = "/plugin_assets/redmine_zxcvbn/stylesheets/redmine_zxcvbn-de69a6003135580e53910af0b9834615.css";
 
     document.head.appendChild(link);
   };

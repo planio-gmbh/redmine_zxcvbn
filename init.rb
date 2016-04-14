@@ -9,4 +9,6 @@ Redmine::Plugin.register :redmine_zxcvbn do
   version "1.0.0"
   url "https://github.com/schmidt/redmine_zxcvbn"
   author_url "https://www.nach-vorne.eu/"
+
+  hidden true if respond_to? :hidden
 end

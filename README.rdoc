@@ -9,6 +9,14 @@ See https://github.com/schmidt/redmine_zxcvbn/tree/master/assets/doc/zxcvbn.png
 for a preview.
 
 
+== Changes in comparison to schmidt/redmine_zxcvbn
+
+This fork includes some changes, needed for deployment within the Planio SaaS environment.
+
+* Set hidden property to plugin configuration
+* Rename optional asset files to include their md5 checksums to allow for long term cache headers
+
+
 == Installation
 
 Please follow the default Redmine plugin installation instructions on
